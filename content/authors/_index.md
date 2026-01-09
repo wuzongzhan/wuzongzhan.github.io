@@ -1,50 +1,43 @@
 ---
-# To publish author profile pages, remove all the `build` and `cascade` settings below.
----
-# Display name
-title: Wuzongzhan  <-- 改這裡 (原本是 Dr. Alex Johnson)
-
-# Name pronunciation (optional)
-# name_pronunciation: ...
-
-# Full name (for SEO)
+title: Wuzongzhan
 first_name: Wuzongzhan
 last_name: Wu
-
-# Status emoji
-status:
-  icon: ☕️
-
-# Is this the primary user of the site?
 superuser: true
+role: Ph.D. Candidate in Semiconductor Engineering
 
-# Role/position
-role: Ph.D. Candidate in Semiconductor Engineering <-- 改職稱
-
-# Organizations/Affiliations
 organizations:
-  - name: National Cheng Kung University (NCKU) <-- 改學校
+  - name: National Cheng Kung University (NCKU)
     url: https://www.ncku.edu.tw/
 
-# Short bio (displayed in user profile at end of posts)
-bio: My research focuses on device physics and SEM. <-- 簡短介紹
+bio: Ph.D. candidate specializing in Device Physics and SEM. Leveraging 5+ years of industry experience (TSMC/Camtek) to bridge theory and application.
 
 interests:
-  - Semiconductor Device Physics <-- 改興趣
+  - Semiconductor Device Physics
   - Scanning Electron Microscopy (SEM)
   - Python for Data Analysis
   - Applied Mathematics
 
 education:
-  - area: Ph.D. in Semiconductor Engineering <-- 改學歷
+  - area: Ph.D. in Semiconductor Engineering
     institution: National Cheng Kung University
     date_start: 2025-09-01
     date_end: ""
-  - area: M.S. in BioMedical Engineering
+  - area: M.S. in Biomedical Engineering
     institution: National Cheng Kung University
-    date_start: 2018-09-01
-    date_end: 2020-06-30
+    date_start: 2016-09-01
+    date_end: 2019-03-31
   - area: B.S. in Applied Mathematics
     institution: National Chiao Tung University
-    date_end: 2018-06-30
+    date_end: 2016-06-30
+
+social:
+  - icon: cv
+    icon_pack: ai
+    link: uploads/resume.pdf
+  - icon: envelope
+    icon_pack: fas
+    link: "mailto:wzongzhan@gmail.com"
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/wuzongzhan
 ---
